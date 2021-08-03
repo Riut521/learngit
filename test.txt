@@ -3,5 +3,3 @@
 "this is true, would you like it"
 
 study git
-
-test reset

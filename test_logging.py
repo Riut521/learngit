@@ -4,6 +4,7 @@ if __name__ == "__main__":
     logger = logging.getLogger(__name__)
     logger.setLevel(level=logging.INFO)
     formatter = logging.Formatter('%(asctime)s %(filename)s[line:%(lineno)d] %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+    
     handler = logging.FileHandler("log.txt")
     handler.setLevel(logging.INFO)
     handler.setFormatter(formatter)

@@ -2,6 +2,7 @@ import logging
 
 if __name__ == "__main__":
     print("add in bc-a")
+    print("change in bc-b")
     logger = logging.getLogger(__name__)
     logger.setLevel(level=logging.INFO)
     formatter = logging.Formatter('%(asctime)s %(filename)s[line:%(lineno)d] %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
